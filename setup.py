@@ -35,5 +35,7 @@ setup(name='maxrules',
       entry_points="""\
       [paste.app_factory]
       main = maxrules:main
+      [console_scripts]
+      maxrules.twitter = maxrules.twitter:main
       """,
       )
